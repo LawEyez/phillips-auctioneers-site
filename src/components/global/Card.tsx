@@ -47,7 +47,7 @@ const Card = ({
           </div>
 
           <div className="space-y-3">
-            <p className="text-neutral-800">
+            <p className="text-sm md:text-base text-neutral-800">
               A Triple Storey Four Bedroom (All en-suite) for Sale by Public Auction Situated Within Ngong Town (Ole Montet Villas, Kajiado County.
             </p>
 
