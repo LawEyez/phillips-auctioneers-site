@@ -6,7 +6,7 @@ import React from 'react'
 type CardProps = {
   title: string
   date: Date
-  description: string
+  description?: string
   img?: string
   type: string
   id: string
@@ -58,7 +58,7 @@ const Card = ({
         <Link href={`/properties/${id}`}>
           <div className='border border-black/10 rounded-xl p-5 flex gap-5 bg-white group hover:border-black transition'>
             <div className="flex items-center justify-center border-r border-black/10 pr-5">
-              <span className='text-primary/30 text-4xl group-hover:text-black transition'>{idx + 1}</span>
+              <span className='text-primary/30 text-4xl group-hover:text-black transition'>{(idx ?? 0) + 1}</span>
             </div>
 
             <div className="space-y-3">
