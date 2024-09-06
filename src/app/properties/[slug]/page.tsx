@@ -39,7 +39,7 @@ export default async function Detail({ params, searchParams }: { params: { slug:
     <section className="py-16 container">
       <div className="flex flex-col gap-8">
         <div className="space-y-5">
-          <h1 className="text-2xl font-semibold font-secondary">
+          <h1 className="text-xl sm:text-2xl font-semibold font-secondary">
             {property.title}
           </h1>
 
