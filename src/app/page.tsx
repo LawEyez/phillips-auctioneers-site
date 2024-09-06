@@ -5,7 +5,7 @@ import { RiMailLine, RiPhoneLine } from "react-icons/ri";
 async function getProperties() {
   const query = `
     {
-      posts(first: 50) {
+      posts(first: 20) {
         nodes {
           title
           excerpt
