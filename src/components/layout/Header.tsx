@@ -34,8 +34,6 @@ const Header = () => {
             <Navlink name='Use' url='/' />
             <Navlink name='Contact' url='/' />
           </div>
-
-          
         </div>
       </nav>
     </header>
