@@ -31,8 +31,8 @@ const Header = () => {
           <div className="hidden sm:flex items-center gap-5">
             <Navlink name='Home' url='/' />
             <Navlink name='Properties on sale' url='/#propertiesOnSale' />
-            <Navlink name='Use' url='/' />
-            <Navlink name='Contact' url='/' />
+            {/* <Navlink name='Use' url='/' />
+            <Navlink name='Contact' url='/' /> */}
           </div>
         </div>
       </nav>
