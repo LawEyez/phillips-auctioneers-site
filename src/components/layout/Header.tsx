@@ -6,7 +6,7 @@ import Brand from '@/components/global/Brand'
 
 const Header = () => {
   return (
-    <header className='w-full'>
+    <header className='w-full border-b border-black/5'>
       {/* CONTACT BANNER */}
       <div className="py-3 bg-gradient-to-b from-neutral-800
       to-neutral-900 text-white">
@@ -30,7 +30,7 @@ const Header = () => {
 
           <div className="hidden sm:flex items-center gap-5">
             <Navlink name='Home' url='/' />
-            <Navlink name='Properties on sale' url='/' />
+            <Navlink name='Properties on sale' url='#propertiesOnSale' />
             <Navlink name='Use' url='/' />
             <Navlink name='Contact' url='/' />
           </div>
