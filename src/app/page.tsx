@@ -5,7 +5,7 @@ import { RiMailLine, RiPhoneLine } from "react-icons/ri";
 async function getProperties() {
   const query = `
     {
-      posts {
+      posts(first: 50) {
         nodes {
           title
           excerpt
@@ -58,19 +58,22 @@ export default async function Home() {
 
           <div className="overflow-x-auto pb-5 scrollbar">
             <div className="w-max flex gap-3">
-              {properties.sort((a: any, b: any) => a.date - b.date).slice(5).map((property: any) => (
-                <Card
-                  key={property.id}
-                  id={property.id}
-                  type="sm"
-                  img='https://images.unsplash.com/photo-1590075700133-9246b1f367b1?q=80&w=2095&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                  date={property.date}
-                  title={property.title}
-                  location={property.categories.nodes[0].name}
-                  slug={property.slug}
-                />
-
-              ))}
+              {properties
+                .sort((a: any, b: any) => b.date - a.date)
+                .slice(0, 5)
+                .map((property: any) => (
+                  <Card
+                    key={property.id}
+                    id={property.id}
+                    type="sm"
+                    img='https://images.unsplash.com/photo-1590075700133-9246b1f367b1?q=80&w=2095&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                    date={property.date}
+                    title={property.title}
+                    location={property.categories.nodes[0].name}
+                    slug={property.slug}
+                  />
+                ))
+              }
             </div>
           </div>
 
