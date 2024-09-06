@@ -39,7 +39,7 @@ export default async function Detail({ params, searchParams }: { params: { slug:
     <section className="py-16 container">
       <div className="flex flex-col gap-8">
         <div className="space-y-5">
-          <h1 className="text-2xl font-semibold">
+          <h1 className="text-2xl font-semibold font-secondary">
             {property.title}
           </h1>
 
@@ -51,7 +51,10 @@ export default async function Detail({ params, searchParams }: { params: { slug:
 
         <LineSeparator type="dark" />
 
-        <div className="space-y-5 text-neutral-700 leading-relaxed text-sm md:text-base" dangerouslySetInnerHTML={{ __html: property.content}}></div>
+        <div
+          className="space-y-5 text-gray-600 leading-relaxed text-sm md:text-base"
+          dangerouslySetInnerHTML={{ __html: property.content}}
+        />
       </div>
     </section>
   )
