@@ -23,7 +23,7 @@ async function getProperties() {
   `
   
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_WORDPRESS_API_URL}`,
+    `${process.env.WORDPRESS_API_URL}`,
     {
       method: 'POST',
       headers: {
