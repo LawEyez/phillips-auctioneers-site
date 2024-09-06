@@ -2,7 +2,47 @@ import Card from "@/components/global/Card";
 import Image from "next/image";
 import { RiMailLine, RiPhoneLine } from "react-icons/ri";
 
-export default function Home() {
+async function getProperties() {
+  const query = `
+    {
+      posts {
+        nodes {
+          title
+          excerpt
+          slug
+          id
+          date
+          categories {
+            nodes {
+              name
+            }
+          }
+        }
+      }
+    }
+  `
+  
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_WORDPRESS_API_URL}`,
+    {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ query }),
+      next: { revalidate: 10 }
+    }
+  )
+
+  const { data } = await res.json()
+
+  return data.posts.nodes
+}
+
+export default async function Home() {
+  const properties = await getProperties()
+  console.log(properties[0].categories)
+
   return (
     <section className="">
       {/* UPCOMING AUCTIONS */}
@@ -19,22 +59,18 @@ export default function Home() {
 
           <div className="overflow-x-auto pb-5 scrollbar">
             <div className="w-max flex gap-3">
-              <Card
-                type="sm"
-                img='https://images.unsplash.com/photo-1590075700133-9246b1f367b1?q=80&w=2095&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-              />
-              <Card
-                type="sm"
-                img='https://images.unsplash.com/photo-1466384920976-6d2352dd04c4?q=80&w=2058&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-              />
-              <Card
-                type="sm"
-                img='https://images.unsplash.com/photo-1435036709252-8bfb7fba3e04?q=80&w=1827&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-              />
-              <Card
-                type="sm"
-                img='https://images.unsplash.com/photo-1669843496449-c9258b015064?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-              />
+              {properties.sort((a: any, b: any) => a.date - b.date).slice(5).map((property: any) => (
+                <Card
+                  key={property.id}
+                  id={property.id}
+                  type="sm"
+                  img='https://images.unsplash.com/photo-1590075700133-9246b1f367b1?q=80&w=2095&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                  date={property.date}
+                  title={property.title}
+                  location={property.categories.nodes[0].name}
+                />
+
+              ))}
             </div>
           </div>
 
@@ -64,26 +100,18 @@ export default function Home() {
         </h2>
 
         <div className="flex flex-col gap-3">
-          <Card
-            type="lg"
-            img='https://images.unsplash.com/photo-1590075700133-9246b1f367b1?q=80&w=2095&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-          />
-          <Card
-            type="lg"
-            img='https://images.unsplash.com/photo-1590075700133-9246b1f367b1?q=80&w=2095&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-          />
-          <Card
-            type="lg"
-            img='https://images.unsplash.com/photo-1590075700133-9246b1f367b1?q=80&w=2095&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-          />
-          <Card
-            type="lg"
-            img='https://images.unsplash.com/photo-1590075700133-9246b1f367b1?q=80&w=2095&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-          />
-          <Card
-            type="lg"
-            img='https://images.unsplash.com/photo-1590075700133-9246b1f367b1?q=80&w=2095&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-          />
+          {properties.map((property: any, i: number) => (
+            <Card
+              key={property.id}
+              id={property.id}
+              type="lg"
+              title={property.title}
+              date={property.date}
+              location={property.categories.nodes[0].name}
+              idx={i}
+            />
+          ))}
+
         </div>
       </div>
     </section>
