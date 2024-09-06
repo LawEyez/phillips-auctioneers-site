@@ -12,6 +12,7 @@ type CardProps = {
   id: string
   location: string
   idx?: number
+  slug: string
 }
 
 const Card = ({
@@ -21,14 +22,15 @@ const Card = ({
   date,
   location,
   id,
-  idx
+  idx,
+  slug
 }: CardProps) => {
   const { day, month, year } = formatDate(date)
 
   switch(type) {
     case 'sm':
       return (
-        <Link href={`/properties/${id}`}>
+        <Link href={`/properties/${slug}?id=${id}`}>
           <div className='w-[280px] sm:w-[350px]'>
             <Image
               src={type === 'sm' ? img as string : ''}
@@ -55,7 +57,7 @@ const Card = ({
 
     case 'lg':
       return (
-        <Link href={`/properties/${id}`}>
+        <Link href={`/properties/${slug}?id=${id}`}>
           <div className='border border-black/10 rounded-xl p-5 flex gap-5 bg-white group hover:border-black transition'>
             <div className="flex items-center justify-center border-r border-black/10 pr-5">
               <span className='text-primary/30 text-4xl group-hover:text-black transition'>{(idx ?? 0) + 1}</span>

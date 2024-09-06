@@ -41,7 +41,6 @@ async function getProperties() {
 
 export default async function Home() {
   const properties = await getProperties()
-  console.log(properties[0].categories)
 
   return (
     <section className="">
@@ -68,6 +67,7 @@ export default async function Home() {
                   date={property.date}
                   title={property.title}
                   location={property.categories.nodes[0].name}
+                  slug={property.slug}
                 />
 
               ))}
@@ -109,6 +109,7 @@ export default async function Home() {
               date={property.date}
               location={property.categories.nodes[0].name}
               idx={i}
+              slug={property.slug}
             />
           ))}
 
