@@ -89,7 +89,7 @@ export default async function Home() {
       </div>
 
       {/* PROPERTIES ON SALE */}
-      <div className="container py-16 space-y-10">
+      <div className="container py-16 space-y-10" id="propertiesOnSale">
         <div className="h-px w-full bg-black/10">
           <div className="h-full w-20 bg-black"></div>
         </div>
@@ -112,7 +112,6 @@ export default async function Home() {
               slug={property.slug}
             />
           ))}
-
         </div>
       </div>
     </section>
