@@ -13,6 +13,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  @apply bg-neutral-50/50;
+}
+
 .container {
   @apply max-w-screen-lg mx-auto px-5 xl:px-0;
 }

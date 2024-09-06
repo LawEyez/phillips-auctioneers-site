@@ -2,6 +2,8 @@ import formatDate from '@/utils/formatDate'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import Button from './Button'
+import { RiArrowRightUpLine, RiArrowUpSLine } from 'react-icons/ri'
 
 type CardProps = {
   title: string
@@ -63,8 +65,8 @@ const Card = ({
               <span className='text-primary/30 text-4xl group-hover:text-black transition'>{(idx ?? 0) + 1}</span>
             </div>
 
-            <div className="space-y-3">
-              <p className="text-sm md:text-base text-neutral-800">
+            <div className="space-y-3 flex-1">
+              <p className="text-sm md:text-base text-neutral-800 w-full">
                 {title}
               </p>
 
@@ -73,6 +75,14 @@ const Card = ({
                 <div className="px-2 py-1 border border-black/10 rounded-full text-sm bg-neutral-50">{location}</div>
               </div>
             </div>
+
+            <Button className='border border-black/10 rounded-full text-sm font-medium w-max
+            h-max flex items-center gap-2 py-2 px-3 group-hover:bg-black group-hover:text-white transition'>
+              View property
+              <span className="h-5 w-5 bg-black text-white rounded-full flex items-center justify-center text-lg">
+                <RiArrowRightUpLine />
+              </span>
+            </Button>
           </div>
         </Link>
       )
