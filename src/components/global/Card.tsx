@@ -71,8 +71,8 @@ const Card = ({
     case 'lg':
       return (
         <Link href={`/properties/${id}`}>
-          <div className='border border-black/10 rounded-xl p-5 flex gap-5 bg-white group hover:border-black transition'>
-            <div className="flex items-center justify-center border-r border-black/10 pr-5 h-max">
+          <div className='border border-black/10 rounded-xl p-5 flex flex-col sm:flex-row gap-5 bg-white group hover:border-black transition'>
+            <div className="flex items-center justify-center border-r border-black/10 pr-5 h-max w-max">
               <span className='text-primary/30 text-4xl group-hover:text-black transition'>{(idx ?? 0) + 1}</span>
             </div>
 
