@@ -44,9 +44,18 @@ export default async function Detail({ params, searchParams }: { params: { id: s
             {property.title}
           </h1>
 
-          <div className="flex items-center gap-5">
-            <p className="text-sm font-medium text-gray-500">{property.auctionDate}</p>
-            <div className="text-sm font-medium">{property.location ?? ''}</div>
+          <div className="flex gap-6">
+            <div className="flex flex-col gap-1">
+              <p className="text-sm text-neutral-500">Guide Price (KES)</p>
+              <p className="text-sm md:text-base font-medium">{property.guidePrice.toLocaleString()}</p>
+            </div>
+
+            <div className="flex flex-col gap-1">
+              <p className="text-sm text-neutral-500">Auction Date</p>
+              <p className="text-sm md:text-base font-medium">{property.auctionDate}</p>
+            </div>
+
+            <div className="px-2 py-1 border border-black/10 rounded-full text-sm bg-neutral-50 h-max">{property.location}</div>
           </div>
         </div>
 
