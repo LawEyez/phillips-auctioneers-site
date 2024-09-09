@@ -1,3 +1,4 @@
+import { properties } from "@/app/propertiesData"
 import LineSeparator from "@/components/global/LineSeparator"
 
 async function getProperty(id: string) {
@@ -31,9 +32,9 @@ async function getProperty(id: string) {
   return data.data.post
 }
 
-export default async function Detail({ params, searchParams }: { params: { slug: string }, searchParams: { id: string }}) {
-  const { id } = searchParams
-  const property = await getProperty(id)
+export default async function Detail({ params, searchParams }: { params: { id: string }, searchParams: { id: string }}) {
+  const { id } = params
+  const property = properties[parseInt(id) - 1]
   
   return (
     <section className="py-16 container">
@@ -44,8 +45,8 @@ export default async function Detail({ params, searchParams }: { params: { slug:
           </h1>
 
           <div className="flex items-center gap-5">
-            <p className="text-sm font-medium text-gray-500">{property.date}</p>
-            <div className="text-sm font-medium">{property.categories.nodes[0].name}</div>
+            <p className="text-sm font-medium text-gray-500">{property.auctionDate}</p>
+            <div className="text-sm font-medium">{property.location ?? ''}</div>
           </div>
         </div>
 
