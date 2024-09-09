@@ -13,12 +13,12 @@ const Header = () => {
         <div className="container flex items-center justify-end w-full gap-5">
           <div className="flex items-center gap-3">
             <RiMailLine />
-            <span className='text-sm'>info@phillipsauctioneers.co.ke</span>
+            <span className='text-xs sm:text-sm'>info@phillipsauctioneers.co.ke</span>
           </div>
 
           <div className="flex items-center gap-3">
             <RiPhoneLine />
-            <span className='text-sm'>+254 (0)20 553 701/2/3</span>
+            <span className='text-xs sm:text-sm'>+254 (0)20 553 701/2/3</span>
           </div>
         </div>
       </div>
