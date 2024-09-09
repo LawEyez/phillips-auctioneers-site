@@ -1,6 +1,7 @@
 import Card from "@/components/global/Card";
 import Image from "next/image";
 import { RiMailLine, RiPhoneLine } from "react-icons/ri";
+import { properties } from "./propertiesData";
 
 async function getProperties() {
   const query = `
@@ -40,7 +41,7 @@ async function getProperties() {
 }
 
 export default async function Home() {
-  const properties = await getProperties()
+  // const properties = await getProperties()
 
   return (
     <section className="">
@@ -67,10 +68,11 @@ export default async function Home() {
                     id={property.id}
                     type="sm"
                     img='https://images.unsplash.com/photo-1590075700133-9246b1f367b1?q=80&w=2095&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                    date={property.date}
+                    date={property.auctionDate}
                     title={property.title}
-                    location={property.categories.nodes[0].name}
+                    location={property.location ?? 'Location'}
                     slug={property.slug}
+                    guidePrice={property.guidePrice}
                   />
                 ))
               }
@@ -109,10 +111,11 @@ export default async function Home() {
               id={property.id}
               type="lg"
               title={property.title}
-              date={property.date}
-              location={property.categories.nodes[0].name}
+              date={property.auctionDate}
+              location={property.location ?? 'Location'}
               idx={i}
               slug={property.slug}
+              guidePrice={property.guidePrice}
             />
           ))}
         </div>
