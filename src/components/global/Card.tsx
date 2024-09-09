@@ -35,7 +35,7 @@ const Card = ({
     case 'sm':
       return (
         <Link href={`/properties/${id}`}>
-          <div className="w-[400px] border border-white/10 bg-gradient-to-b from-white/5 to-transparent rounded-2xl p-5
+          <div className="w-[300px] sm:w-[400px] border border-white/10 bg-gradient-to-b from-white/5 to-transparent rounded-2xl p-5
           space-y-5 backdrop-blur-2xl group hover:border-white/40 transition">
             <div className="flex justify-between">
               <div className="text-primary p-3 border border-white/10 group-hover:border-white/40 rounded-xl w-max transition">
