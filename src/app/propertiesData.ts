@@ -369,4 +369,459 @@ export const properties = [
     auctionDate: 'October 1, 2024',
     guidePrice: 7900000,
   },
+  {
+    id: 24,
+    title: `PRIME RESIDENTIAL PROPERTY (FIVE (5 NO.) BEDROOM (2 ENSUITE) MAISONETTE WITH A DOMESTIC STAFF QUARTER) FOR SALE BY PUBLIC AUCTION SITUATED WITHIN EDENVILLE PHASE 2 ESTATE, OFF KIAMBU ROAD IN KIAMBU COUNTY`,
+    location: 'Kiambu',
+    slug: '',
+    content: `
+      <p><strong>TITLE NO.</strong> L.R. NO: 21103/1 MAISONETTE NO. J49, EDENVILLE PHASE 2 ESTATE OFF KIAMBU ROAD IN KIAMBU COUNTY</p>
+      <p><strong>SITUATION:</strong> The property is situated within Edenville Phase 2 Estate, off Kiambu Road in Kiambu County. The subject property is identifiable as Maisonette NO. J49. The estate lies about 400 metres (linear distance) to the Western elevation of Kiambu Institute of Science and Technology, about 600 metres(linear distance) to the South western elevation of Kiambu Golf Club and 1.5 kilometres (linear distance) to the South Eastern elevation of Kiambu Town Centre</p>
+      <p><strong>AREA:</strong> The entire plot on which Edenville estate is developed contains by measurement approximately 60.39 Ha/149.22 Acres</p>
+      <p><strong>TENURE:</strong> Leasehold Interest for a term of 999 years with effect from 19.09.2022 (less the last ten (10) days.</p>
+      <p><strong>REGISTERED OWNER:</strong> The property is registered in the name of RAMANI GROUP LIMITED.</p>
+      <p><strong>IMPROVEMENTS:</strong> Edenville Estate accommodates three, four- and five-Bedrooms maisonettes with DSQs and related ancillary facilities.</p>
+      <p><strong>PROPERTY NO. J49:</strong> THIS IS A THREE STOREY COMPRISING OF GROUND FLOOR, LOWER GROUND FLOOR AND FIRST FLOOR - FIVE (5 NO.) BEDROOM (2 ENSUITE) MAISONETTE WITH A DOMESTIC STAFF QUARTER. EXTERNAL COMMON FACILITIES INCLUDE MANNED GATE, PARKING, COMMON PERIMETER WALL FENCE AND A GATE HOUSE.</p>
+      <p><strong>SERVICES:</strong> Main electricity and water are connected into the property. Foul drainage is into the mains. Cellular phone networks are strong. Immediate access road is cabro paved. Two (2 No) dedicated parking bays</p>
+    `,
+    auctionDate: 'September 24, 2024',
+    guidePrice: 0,
+    auctionLocation: `TUESDAY 24TH SEPTEMBER 2024 – AT OUR OFFICES SITUATED WITHIN KILELESHWA, ALONG KANDARA ROAD OPPOSITE WHITE STAR CENTRE– NAIROBI CITY COUNTY - STARTING AT 11.00 A.M.`
+  },
+  {
+    id: 25,
+    title: `PRIME RESIDENTIAL PROPERTY (THREE BEDROOM MAISONETTE) FOR SALE BY PUBLIC AUCTION SITUATED WITHIN PALM COURT BURU BURU PHASE V EXTENSION – NAIROBI COUNTY `,
+    location: 'Nairobi',
+    slug: '',
+    content: `
+      <p><strong>TITLE NO.</strong> TITLE NO. NAIROBI/BLOCK 77/116 HOUSE NO. 119 – PALM COURT BURU BURU PHASE (V) EXTENSION – NAIROBI COUNTY</p>
+      <p><strong>SITUATION:</strong> The subject property identifiable as House No. 119 is situated within Palm Court, off Wangombe Road which in turn branches off the main tar-surfaced Mumias South Road in Buru Buru Phase V Extension Estate, Nairobi County. The route access to the subject property is off Mombasa Road upto Melili Road; the subject property will be 560 metres from Mombasa Road</p>
+      <p><strong>AREA:</strong> The plot measures 0.0136 of a hectare i.e. 0.0336 of an acre</p>
+      <p><strong>TENURE:</strong> Title is held on Leasehold Interest for the residue term of 99 years with effect from 1st January 1993.</p>
+      <p><strong>REGISTERED OWNER:</strong> The property is registered in the name of JUDITH ACHIENG OTUOMA G/T JULIANA AKINYI MIGUNDE.</p>
+      <p><strong>IMPROVEMENTS:</strong> THE PLOT IS DEVELOPED WITH A TERRACED DOUBLE STOREY MAISONETTE.</p>
+      <p><strong>SERVICES:</strong> Mains electricity and water are connected to the subject property. Drainage is into the main sewer trunk. The estate/court is provided with tar/cabro-paved circulation areas and round the clock security. The immediate access to the subject property is via tar-surfaced Wangombe Road branching off the main tar-surfaced Mumias South Road.</p>
+    `,
+    auctionDate: 'September 24, 2024',
+    guidePrice: 0,
+    auctionLocation: `TUESDAY 24TH SEPTEMBER 2024 – AT OUR OFFICES SITUATED WITHIN KILELESHWA, ALONG KANDARA ROAD OPPOSITE WHITE STAR CENTRE– NAIROBI CITY COUNTY - STARTING AT 11.00 A.M.`
+  },
+
+  {
+    id: 26,
+    title: `PRIME RESIDENTIAL PROPERTY (FIVE STOREY BUILDING BLOCK OF APARTMENTS) FOR SALE BY PUBLIC AUCTION SITUATED WITHIN SOUTH B ESTATE, NAIROBI COUNTY.`,
+    location: 'Nairobi',
+    slug: '',
+    content: `
+      <p><strong>TITLE NO.</strong> L.R. NO. 209/4961 – (I.R. NO. 11815) SOUTH ‘B’ ESTATE, NAIROBI CITY COUNTY.</p>
+      <p><strong>SITUATION:</strong> The property is in South ‘B’ ESTATE, Nairobi City County approximately 3.5 kms South of Nairobi City Centre.  It is situated along and to the South of Melili Road, about 30 metres from the junction of the said road and Mukenia Road.</p>
+      <p><strong>AREA:</strong> The plot measures 0.1722 of an acre or thereabouts</p>
+      <p><strong>TENURE:</strong> The title is held on a leasehold interest for the residue of the term of 99 years from 1st July 1955 at an annual ground rent of Kshs. 103/32 </p>
+      <p><strong>REGISTERED OWNER:</strong> The subject apartment is registered in the names of LAWRENCE MAINA WERU & LAMA FRESH PRODUCE LIMITED</p>
+      <p><strong>IMPROVEMENTS:</strong> ERECTED ON THE PLOT IS A FIVE STOREY RESIDENTIAL BLOCK AND A SEMI-PERMANENT BLOCK AND A SEMI-PERMANENT COMMERCIAL BLOCK.</p>
+      <p><strong>SERVICES:</strong> Immediate access road is tar surfaced. Mains electricity, piped water and sewer services are connected into the subject property</p>
+    `,
+    auctionDate: 'September 25, 2024',
+    guidePrice: 0,
+    auctionLocation: `WEDNESDAY 25TH SEPTEMBER 2024 – AT OUR OFFICES SITUATED WITHIN KILELESHWA, ALONG KANDARA ROAD OPPOSITE WHITE STAR CENTRE– NAIROBI CITY COUNTY - STARTING AT 11.00 A.M`
+  },
+
+  {
+    id: 27,
+    title: `37.8 ACRES OF PRIME VACANT LAND FOR SALE BY PUBLIC AUCTION SITUATED WITHIN SAIRASHIE AREA OF EWUASO KEDONG GROUP RANCH IN KAJIADO COUNTY`,
+    location: 'Kajiado',
+    slug: '',
+    content: `
+      <p><strong>TITLE NO.</strong> KAJIADO/EWUASO – KEDONG/2240 KAJIADO COUNTY.</p>
+      <p><strong>SITUATION:</strong> The subject property is situated within Sairashie Area of Ewuaso Kedong Group Ranch in Kajiado County. Access to this area is through Mai Mahiu – Narok Road branching off as Suswa Trading Centre to join the newly tarmacked Suswa -Ewuaso – Ngong Road.  The property is situated within Sairashie Road, and its situated approximately 3 kms to the North East of Sairashie Primary School which lies approximately 25 kms to the east of Ewuaso Trading Centre</p>
+      <p><strong>AREA:</strong> The parcel measures approximately 15.31 hectares or 37.8 acres</p>
+      <p><strong>TENURE:</strong> The property is held on Freehold Interest.</p>
+      <p><strong>REGISTERED OWNER:</strong> The property is registered in the name of NES POLY PACK LIMITED</p>
+      <p><strong>DEVELOPMENTS:</strong> HE LAND IS VACANT</p>
+      <p><strong>SERVICES:</strong> Mains electricity not connected and not available in the immediate neighbourhood. Water would be supplied from community boreholes/water pans. Drainage would be to a septic tank. The official access road is yet to be made and the property is accessed through tracks/paths. Other social amenities including churches, shopping facilities, health facilities, schools amongst others are available within the neighbourhood and at Najile Trading Centre which is located approximately 5 kms away.</p>
+    `,
+    auctionDate: 'September 27, 2024',
+    guidePrice: 0,
+    auctionLocation: `FRIDAY 27TH SEPTEMBER 2024 – AT OUR OFFICES SITUATED WITHIN KILELESHWA, ALONG KANDARA ROAD OPPOSITE WHITE STAR CENTRE– NAIROBI CITY COUNTY - STARTING AT 11.00 A.M.`
+  },
+
+  {
+    id: 28,
+    title: `30.5 ACRES OF PRIME VACANT LAND FOR SALE BY PUBLIC AUCTION SITUATED WITHIN THE OLOKIRDING’AI AREA, WITHIN EWUASO KEDONG GROUP RANCH, KAJIADO COUNTY`,
+    location: 'Kajiado',
+    slug: '',
+    content: `
+      <p><strong>TITLE NO.</strong> KAJIADO/EWUASO – KEDONG/2587 KAJIADO COUNTY.</p>
+      <p><strong>SITUATION:</strong> The subject property is situated in the Olokirding’ai Area, within Ewuaso Kedong Group Ranch, Kajiado County.   The area is accessed through Mai Mahiu – Narok Road branching off as Suswa Trading Centre to join the newly tarmacked Suswa -Ewuaso – Ngong Road.  The Subject property is situated approximately 6 kms off Suswa -Ewuaso- Ngong Road and approximately 2 kms to the North West of Olokirding’ai Primary School. The access track / path branches off at approximately 5 kms to the North East of Ewuaso Trading Centre and the exit marked Light Tabernacle International Church – Olokirding’ai Headquarters.</p>
+      <p><strong>AREA:</strong> The parcel measures approximately 12.38 hectares or 30.5 acres</p>
+      <p><strong>TENURE:</strong> The property is held on Freehold Interest</p>
+      <p><strong>REGISTERED OWNER:</strong> The property is registered in the name of NES POLY PACK LIMITED</p>
+      <p><strong>DEVELOPMENTS:</strong> THE LAND IS VACANT</p>
+      <p><strong>SERVICES:</strong> Mains electricity not connected and not available in the immediate neighbourhood. Water would be supplied from community boreholes/water pans. Drainage would be to a septic tank. The official access road is yet to be made and the property is accessed through tracks/paths. Other social amenities including churches, shopping facilities, health facilities, schools amongst others are available within the neighbourhood and at EwuasoTrading Centre which is located approximately 12 kms away.</p>
+    `,
+    auctionDate: 'September 27, 2024',
+    guidePrice: 0,
+    auctionLocation: `FRIDAY 27TH SEPTEMBER 2024 – AT OUR OFFICES SITUATED WITHIN KILELESHWA, ALONG KANDARA ROAD OPPOSITE WHITE STAR CENTRE– NAIROBI CITY COUNTY - STARTING AT 11.00 A.M.`
+  },
+
+  {
+    id: 29,
+    title: `36.8 ACRES OF PRIME VACANT LAND FOR SALE BY PUBLIC AUCTION SITUATED WITHIN NAJILE TRADING CENTRE, EWUASO KEDONG GROUP RANCH IN KAJIADO COUNTY`,
+    location: 'Kajiado',
+    slug: '',
+    content: `
+      <p><strong>TITLE NO.</strong> KAJIADO/EWUASO – KEDONG/2636 - KAJIADO COUNTY.</p>
+      <p><strong>SITUATION:</strong> The subject property is situated within Najile Trading Centre, Ewuaso Kedong Group Ranch in Kajiado County. Access to this area is through Mai Mahiu – Narok Road branching off as Suswa Trading Centre to join the newly tarmacked Suswa -Ewuaso – Ngong Road.  The property can be accessed through Ewuaso – Najile Road and it is situated approximately 4 kms to the North East of Ewuaso Girls Secondary School which lies approximately 8 kms to the east of Ewuaso Trading Centre</p>
+      <p><strong>AREA:</strong> The parcel measures approximately 14.89 hectares or 36.8 acres.</p>
+      <p><strong>TENURE:</strong> The property is held on Freehold Interest.</p>
+      <p><strong>REGISTERED OWNER:</strong> The property is registered in the name of NES POLY PACK LIMITED.</p>
+      <p><strong>DEVELOPMENTS:</strong> THE LAND IS VACANT</p>
+      <p><strong>SERVICES:</strong> Mains electricity not connected and not available in the immediate neighbourhood Water would be supplied from community boreholes/water pans. Drainage would be to a septic tank. The official access road is yet to be made and the property is accessed through tracks/paths. Other social amenities including churches, shopping facilities, health facilities, schools amongst others are available within the neighbourhood and at Najile Trading Centre which is located approximately 5 kms away.</p>
+    `,
+    auctionDate: 'September 27, 2024',
+    guidePrice: 0,
+    auctionLocation: `FRIDAY 27TH SEPTEMBER 2024 – AT OUR OFFICES SITUATED WITHIN KILELESHWA, ALONG KANDARA ROAD OPPOSITE WHITE STAR CENTRE– NAIROBI CITY COUNTY - STARTING AT 11.00 A.M.`
+  },
+
+  {
+    id: 30,
+    title: `30 ACRES OF PRIME VACANT LAND FOR SALE BY PUBLIC AUCTION SITUATED WITHIN SAIRASHIE AREA OF EWUASO KEDONG GROUP RANCH IN KAJIADO COUNTY`,
+    location: 'Kajiado',
+    slug: '',
+    content: `
+      <p><strong>TITLE NO.</strong> KAJIADO/EWUASO – KEDONG/3024 KAJIADO COUNTY.</p>
+      <p><strong>SITUATION:</strong> The subject property is situated within Sairashie Area of Ewuaso Kedong Group Ranch in Kajiado County. Access to this area is through Mai Mahiu – Narok Road branching off as Suswa Trading Centre to join the newly tarmacked Suswa -Ewuaso – Ngong Road.  The property can be accessed through Ewuaso – Najile Road - Sairashie Road, and its situated approximately 10 kms to the South West of Sairashie Primary School which lies approximately 25 kms to the east of Ewuaso Trading Centre.</p>
+      <p><strong>AREA:</strong> The parcel measures approximately 12.21 hectares or 30 acres.</p>
+      <p><strong>TENURE:</strong> The property is held on Freehold Interest.</p>
+      <p><strong>REGISTERED OWNER:</strong> The property is registered in the name of NES POLY PACK LIMITED</p>
+      <p><strong>DEVELOPMENTS:</strong> THE LAND IS VACANT</p>
+      <p><strong>SERVICES:</strong> Mains electricity not connected and not available in the immediate neighbourhood. Water would be supplied from community boreholes/water pans. Drainage would be to a septic tank. The official access road is yet to be made and the property is accessed through tracks/paths. Other social amenities including churches, shopping facilities, health facilities, schools amongst others are available within the neighbourhood and at Najile Trading Centre which is located approximately 12 kms away.</p>
+    `,
+    auctionDate: 'September 27, 2024',
+    guidePrice: 0,
+    auctionLocation: `FRIDAY 27TH SEPTEMBER 2024 – AT OUR OFFICES SITUATED WITHIN KILELESHWA, ALONG KANDARA ROAD OPPOSITE WHITE STAR CENTRE– NAIROBI CITY COUNTY - STARTING AT 11.00 A.M.`
+  },
+
+  {
+    id: 31,
+    title: `28.12 ACRES OF PRIME VACANT LAND FOR SALE BY PUBLIC AUCTION SITUATED WITHIN OLOKIRDING’AI AREA, WITHIN EWUASO KEDONG GROUP RANCH, KAJIADO COUNTY`,
+    location: 'Kajiado',
+    slug: '',
+    content: `
+      <p><strong>TITLE NO.</strong> KAJIADO/EWUASO – KEDONG/3143 - KAJIADO COUNTY.</p>
+      <p><strong>SITUATION:</strong> The subject property is situated in the Olokirding’ai Area, within Ewuaso Kedong Group Ranch, Kajiado County.   The area is accessed through Mai Mahiu – Narok Road branching off as Suswa Trading Centre to join the newly tarmacked Suswa -Ewuaso – Ngong Road.  The Subject property is situated approximately 6 kms off Suswa -Ewuaso- Ngong Road. The subject is situated approximately 9 kms off Suswa – Ewuaso – Ngong Road and is approximately 6 kms to the South West of Olokirding’ai Primary School and at the slopes of Suswa Crater. The access track / path branches off at approximately 5 kms to the North East of Ewuaso Trading Centre and the exit marked Light Tabernacle International Church – Olokirding’ai Headquarters.</p>
+      <p><strong>AREA:</strong> The parcel measures approximately 11.38 hectares or 28.12 acres.</p>
+      <p><strong>TENURE:</strong> The property is held on Freehold Interest.</p>
+      <p><strong>REGISTERED OWNER:</strong> The property is registered in the name of NES POLY PACK LIMITED.</p>
+      <p><strong>DEVELOPMENTS:</strong> THE LAND IS VACANT.</p>
+      <p><strong>SERVICES:</strong> Mains electricity not connected and not available in the immediate neighbourhood. Water would be supplied from community boreholes/water pans. Drainage would be to a pit latrine. The official access road is yet to be made and the property is accessed through tracks/paths. Other social amenities including churches, shopping facilities, health facilities, schools amongst others are available within the neighbourhood and at EwuasoTrading Centre which is located approximately 15 kms away.</p>
+    `,
+    auctionDate: 'September 27, 2024',
+    guidePrice: 0,
+    auctionLocation: `FRIDAY 27TH SEPTEMBER 2024 – AT OUR OFFICES SITUATED WITHIN KILELESHWA, ALONG KANDARA ROAD OPPOSITE WHITE STAR CENTRE– NAIROBI CITY COUNTY - STARTING AT 11.00 A.M. `
+  },
+
+  {
+    id: 32,
+    title: `49 ACRES OF PRIME VACANT LAND FOR SALE BY PUBLIC AUCTION SITUATED WITHIN LOODARIAK GROUP RANCH OF KAJIADO COUNTY`,
+    location: 'Kajiado',
+    slug: '',
+    content: `
+      <p><strong>TITLE NO.</strong> KAJIADO/LOODARIAK/13755 – KAJIADO COUNTY.</p>
+      <p><strong>SITUATION:</strong> The subject property is within Loodariak Group Ranch of Kajiado County. This is off Magadi Road, branching off and to the South at approximately 23 kms from Kiserian Township, a few metres to Olorropil AIC Church.  The exit is marked easily identified with Kabuagi Water Point borehole water tower. The access road that proceeds to the South Easterly direction for approximately 1.5 kms to the property.  Amaya Water Tower is the nearest landmark.</p>
+      <p><strong>AREA:</strong> The parcel measures approximately 19.85 hectares or 49 acres.</p>
+      <p><strong>TENURE:</strong> The property is held on Freehold Interest.</p>
+      <p><strong>REGISTERED OWNER:</strong> The property is registered in the name of NES POLY PACK LIMITED.</p>
+      <p><strong>DEVELOPMENTS:</strong> THE LAND IS VACANT.</p>
+      <p><strong>SERVICES:</strong> Mains electricity not connected and not available in the immediate neighbourhood. Water would be supplied from community boreholes.  Drainage would be to a septic tank. Immediate access road is earth surface and joins the tarmacked Magadi Road approximately 3 kms away. Other social amenities including churches, shopping facilities, health facilities, schools amongst others are available within Kiserian Township which is located approximately 26 kms away.</p>
+    `,
+    auctionDate: 'September 27, 2024',
+    guidePrice: 0,
+    auctionLocation: `FRIDAY 27TH SEPTEMBER 2024 – AT OUR OFFICES SITUATED WITHIN KILELESHWA, ALONG KANDARA ROAD OPPOSITE WHITE STAR CENTRE– NAIROBI CITY COUNTY - STARTING AT 11.00 A.M.`
+  },
+
+  {
+    id: 33,
+    title: `53.8 ACRES OF PRIME VACANT LAND FOR SALE BY PUBLIC AUCTION SITUATED WITHIN OLODUNG’ORO AREA OF EWAUSO KEDONG GROUP RANCH, IN KAJIADO COUNTY`,
+    location: 'Kajiado',
+    slug: '',
+    content: `
+      <p><strong>TITLE NO.</strong> KAJIADO/ EWUASO KEDONG/ 2162, KAJIADO COUNTY.</p>
+      <p><strong>SITUATION:</strong> The property is situated within Olodung’oro area of Ewauso Kedong group ranch, in Kajiado County. Access to this area is through Mai Mahiu – Narok road, branching off at Suswa trading centre to join the newly tarmacked Suswa – Ewauso – Ngong road (Still under construction). The property lies a few metres to the mouth of Mount Suswa Crater.  Access is through Ewauso – Najile Road – Oludung’oro Road, and is situated approximately 6 Kilometres to the North West of Olodung’oro Primary School, which lies approximately 15 Kilometres to the east of Ewauso Trading Centre.</p>
+      <p><strong>AREA:</strong> The parcel measures approximately (21.77) hectares or (53.8) acres.</p>
+      <p><strong>TENURE:</strong> The property is held on Freehold Interest.</p>
+      <p><strong>REGISTERED OWNER:</strong> The property is registered in the name of NES POLY PACK LIMITED.</p>
+      <p><strong>DEVELOPMENTS:</strong> THE LAND IS VACANT.</p>
+      <p><strong>SERVICES:</strong> Mains electricity not connected, and not available in the immediate neighbourhood. Water would be supplied from community boreholes/ water pans while drainage would be to a septic tank. The official access road is yet to be made, and the property is accessed through tracks/ paths. Other social services including churches, shopping facilities, health facilities, schools amongst others are available within the neighbourhood and at Nejile Trading Centre, which is located approximately 12 Kilometres away.</p>
+    `,
+    auctionDate: 'September 27, 2024',
+    guidePrice: 0,
+    auctionLocation: `FRIDAY 27TH SEPTEMBER 2024 – AT OUR OFFICES SITUATED WITHIN KILELESHWA, ALONG KANDARA ROAD OPPOSITE WHITE STAR CENTRE– NAIROBI CITY COUNTY - STARTING AT 11.00 A.M.`
+  },
+
+  {
+    id: 34,
+    title: `33.8 ACRES OF PRIME VACANT LAND FOR SALE BY PUBLIC AUCTION SITUATED WITHIN SITUATED IN THE NEIGHBOURHOOD OF OLOKIRDING’AI, WITHIN EWAUSO KEDONG GROUP RANCH, IN KAJIADO COUNTY`,
+    location: 'Nairobi',
+    slug: '',
+    content: `
+      <p><strong>TITLE NO.</strong> KAJIADO/ EWUASO KEDONG/ 2744, KAJIADO COUNTY</p>
+      <p><strong>SITUATION:</strong> The property is situated in the neighbourhood of Olokirding’ai, within Ewauso Kedong Group Ranch, in Kajiado County. Access is through Mai Mahiu – Narok Road, branching off at Suswa Trading Centre to join the newly tarmacked Suswa – Ewauso – Ngong road (Still under construction). The subject is situated approximately 6 Kilometres off Suswa - Ewauso – Ngong road, and approximately 3 kilometres to the south west of Olokirding’ai Primary School. The access track/ path branching off at approximately 5 Kilometers to the North east of Ewauso Trading Centre, and the exit marked with Light Tabernacle International Church – Olokirding’ai Headquarters sign post.</p>
+      <p><strong>AREA:</strong> The parcel measures approximately (13.71) hectares or (33.8) acres.</p>
+      <p><strong>TENURE:</strong> The property is held on Freehold Interest.</p>
+      <p><strong>REGISTERED OWNER:</strong> The property is registered in the name of NES POLY PACK LIMITED.</p>
+      <p><strong>DEVELOPMENTS:</strong> THE LAND IS VACANT.</p>
+      <p><strong>SERVICES:</strong> Mains electricity not connected, and not available in the immediate neighbourhood. Water would be supplied from community boreholes/ water pans while drainage would be to a septic tank. The official access road is yet to be made, and the property is accessed through tracks/ paths. Other social services including churches, shopping facilities, health facilities, schools amongst others are available within the neighbourhood and at Ewauso Trading Centre, which is located approximately 12 Kilometres away.</p>
+    `,
+    auctionDate: 'September 27, 2024',
+    guidePrice: 0,
+    auctionLocation: `FRIDAY 27TH SEPTEMBER 2024 – AT OUR OFFICES SITUATED WITHIN KILELESHWA, ALONG KANDARA ROAD OPPOSITE WHITE STAR CENTRE– NAIROBI CITY COUNTY - STARTING AT 11.00 A.M.`
+  },
+
+  {
+    id: 35,
+    title: `31.5 ACRES OF PRIME VACANT LAND FOR SALE BY PUBLIC AUCTION SITUATED WITHIN THE NEIGHBOURHOOD OF OLOKIRDING’AI, WITHIN EWAUSO KEDONG, IN KAJIADO COUNTY`,
+    location: 'Kajiado',
+    slug: '',
+    content: `
+      <p><strong>TITLE NO.</strong> KAJIADO/ EWUASO KEDONG/ 2859, KAJIADO COUNTY.</p>
+      <p><strong>SITUATION:</strong> The property is situated in the neighbourhood of Olokirding’ai, within Ewauso Kedong, in Kajiado County. Access is through Mai Mahiu – Narok road, branching off at Suswa Trading Centre to join the newly tarmacked Suswa – Ewauso – Ngong Road (Still under construction). The subject is situated approximately 1.6 Kilometres off Ewauso Trading Centre – Najile Trading Centre earth road, branching off to the North west approximately 4.5 Kilometres from the junction of the above road and Ngong – Suswa tarmac road, at Ewauso Trading Centre.  The exit is marked with Light Tabernacle International Church – Olokirding’ai Headquarters sign post.</p>
+      <p><strong>AREA:</strong> The parcel measures approximately (12.76) hectares or (31.5) acres.</p>
+      <p><strong>TENURE:</strong> The property is held on Freehold Interest. </p>
+      <p><strong>REGISTERED OWNER:</strong> The property is registered in the name of NES POLY PACK LIMITED.</p>
+      <p><strong>DEVELOPMENTS:</strong> THE LAND IS VACANT.</p>
+      <p><strong>SERVICES:</strong> Mains electricity not connected, and not available in the immediate neighbourhood. Water would be supplied from community boreholes/ water pans while drainage would be to a septic tank. The official access road is yet to be made, and the property is accessed through tracks/ paths. Other social services including churches, shopping facilities, health facilities, schools amongst others are available within the neighbourhood and at Ewauso Trading Centre, which is located approximately 5 Kilometres away.</p>
+    `,
+    auctionDate: 'September 27, 2024',
+    guidePrice: 0,
+    auctionLocation: `FRIDAY 27TH SEPTEMBER 2024 – AT OUR OFFICES SITUATED WITHIN KILELESHWA, ALONG KANDARA ROAD OPPOSITE WHITE STAR CENTRE– NAIROBI CITY COUNTY - STARTING AT 11.00 A.M.`
+  },
+
+  // {
+  //   id: 25,
+  //   title: ``,
+  //   location: 'Nairobi',
+  //   slug: '',
+  //   content: `
+  //     <p><strong>TITLE NO.</strong> </p>
+  //     <p><strong>SITUATION:</strong> </p>
+  //     <p><strong>AREA:</strong> </p>
+  //     <p><strong>TENURE:</strong> </p>
+  //     <p><strong>REGISTERED OWNER:</strong> </p>
+  //     <p><strong>IMPROVEMENTS:</strong> </p>
+  //     <p><strong>SERVICES:</strong> </p>
+  //   `,
+  //   auctionDate: 'September 24, 2024',
+  //   guidePrice: 0,
+  //   auctionLocation: ``
+  // },
+
+  // {
+  //   id: 25,
+  //   title: ``,
+  //   location: 'Nairobi',
+  //   slug: '',
+  //   content: `
+  //     <p><strong>TITLE NO.</strong> </p>
+  //     <p><strong>SITUATION:</strong> </p>
+  //     <p><strong>AREA:</strong> </p>
+  //     <p><strong>TENURE:</strong> </p>
+  //     <p><strong>REGISTERED OWNER:</strong> </p>
+  //     <p><strong>IMPROVEMENTS:</strong> </p>
+  //     <p><strong>SERVICES:</strong> </p>
+  //   `,
+  //   auctionDate: 'September 24, 2024',
+  //   guidePrice: 0,
+  //   auctionLocation: ``
+  // },
+
+  // {
+  //   id: 25,
+  //   title: ``,
+  //   location: 'Nairobi',
+  //   slug: '',
+  //   content: `
+  //     <p><strong>TITLE NO.</strong> </p>
+  //     <p><strong>SITUATION:</strong> </p>
+  //     <p><strong>AREA:</strong> </p>
+  //     <p><strong>TENURE:</strong> </p>
+  //     <p><strong>REGISTERED OWNER:</strong> </p>
+  //     <p><strong>IMPROVEMENTS:</strong> </p>
+  //     <p><strong>SERVICES:</strong> </p>
+  //   `,
+  //   auctionDate: 'September 24, 2024',
+  //   guidePrice: 0,
+  //   auctionLocation: ``
+  // },
+
+  // {
+  //   id: 25,
+  //   title: ``,
+  //   location: 'Nairobi',
+  //   slug: '',
+  //   content: `
+  //     <p><strong>TITLE NO.</strong> </p>
+  //     <p><strong>SITUATION:</strong> </p>
+  //     <p><strong>AREA:</strong> </p>
+  //     <p><strong>TENURE:</strong> </p>
+  //     <p><strong>REGISTERED OWNER:</strong> </p>
+  //     <p><strong>IMPROVEMENTS:</strong> </p>
+  //     <p><strong>SERVICES:</strong> </p>
+  //   `,
+  //   auctionDate: 'September 24, 2024',
+  //   guidePrice: 0,
+  //   auctionLocation: ``
+  // },
+
+  // {
+  //   id: 25,
+  //   title: ``,
+  //   location: 'Nairobi',
+  //   slug: '',
+  //   content: `
+  //     <p><strong>TITLE NO.</strong> </p>
+  //     <p><strong>SITUATION:</strong> </p>
+  //     <p><strong>AREA:</strong> </p>
+  //     <p><strong>TENURE:</strong> </p>
+  //     <p><strong>REGISTERED OWNER:</strong> </p>
+  //     <p><strong>IMPROVEMENTS:</strong> </p>
+  //     <p><strong>SERVICES:</strong> </p>
+  //   `,
+  //   auctionDate: 'September 24, 2024',
+  //   guidePrice: 0,
+  //   auctionLocation: ``
+  // },
+
+  // {
+  //   id: 25,
+  //   title: ``,
+  //   location: 'Nairobi',
+  //   slug: '',
+  //   content: `
+  //     <p><strong>TITLE NO.</strong> </p>
+  //     <p><strong>SITUATION:</strong> </p>
+  //     <p><strong>AREA:</strong> </p>
+  //     <p><strong>TENURE:</strong> </p>
+  //     <p><strong>REGISTERED OWNER:</strong> </p>
+  //     <p><strong>IMPROVEMENTS:</strong> </p>
+  //     <p><strong>SERVICES:</strong> </p>
+  //   `,
+  //   auctionDate: 'September 24, 2024',
+  //   guidePrice: 0,
+  //   auctionLocation: ``
+  // },
+
+  // {
+  //   id: 25,
+  //   title: ``,
+  //   location: 'Nairobi',
+  //   slug: '',
+  //   content: `
+  //     <p><strong>TITLE NO.</strong> </p>
+  //     <p><strong>SITUATION:</strong> </p>
+  //     <p><strong>AREA:</strong> </p>
+  //     <p><strong>TENURE:</strong> </p>
+  //     <p><strong>REGISTERED OWNER:</strong> </p>
+  //     <p><strong>IMPROVEMENTS:</strong> </p>
+  //     <p><strong>SERVICES:</strong> </p>
+  //   `,
+  //   auctionDate: 'September 24, 2024',
+  //   guidePrice: 0,
+  //   auctionLocation: ``
+  // },
+
+  // {
+  //   id: 25,
+  //   title: ``,
+  //   location: 'Nairobi',
+  //   slug: '',
+  //   content: `
+  //     <p><strong>TITLE NO.</strong> </p>
+  //     <p><strong>SITUATION:</strong> </p>
+  //     <p><strong>AREA:</strong> </p>
+  //     <p><strong>TENURE:</strong> </p>
+  //     <p><strong>REGISTERED OWNER:</strong> </p>
+  //     <p><strong>IMPROVEMENTS:</strong> </p>
+  //     <p><strong>SERVICES:</strong> </p>
+  //   `,
+  //   auctionDate: 'September 24, 2024',
+  //   guidePrice: 0,
+  //   auctionLocation: ``
+  // },
+
+  // {
+  //   id: 25,
+  //   title: ``,
+  //   location: 'Nairobi',
+  //   slug: '',
+  //   content: `
+  //     <p><strong>TITLE NO.</strong> </p>
+  //     <p><strong>SITUATION:</strong> </p>
+  //     <p><strong>AREA:</strong> </p>
+  //     <p><strong>TENURE:</strong> </p>
+  //     <p><strong>REGISTERED OWNER:</strong> </p>
+  //     <p><strong>IMPROVEMENTS:</strong> </p>
+  //     <p><strong>SERVICES:</strong> </p>
+  //   `,
+  //   auctionDate: 'September 24, 2024',
+  //   guidePrice: 0,
+  //   auctionLocation: ``
+  // },
+
+  // {
+  //   id: 25,
+  //   title: ``,
+  //   location: 'Nairobi',
+  //   slug: '',
+  //   content: `
+  //     <p><strong>TITLE NO.</strong> </p>
+  //     <p><strong>SITUATION:</strong> </p>
+  //     <p><strong>AREA:</strong> </p>
+  //     <p><strong>TENURE:</strong> </p>
+  //     <p><strong>REGISTERED OWNER:</strong> </p>
+  //     <p><strong>IMPROVEMENTS:</strong> </p>
+  //     <p><strong>SERVICES:</strong> </p>
+  //   `,
+  //   auctionDate: 'September 24, 2024',
+  //   guidePrice: 0,
+  //   auctionLocation: ``
+  // },
+
+  // {
+  //   id: 25,
+  //   title: ``,
+  //   location: 'Nairobi',
+  //   slug: '',
+  //   content: `
+  //     <p><strong>TITLE NO.</strong> </p>
+  //     <p><strong>SITUATION:</strong> </p>
+  //     <p><strong>AREA:</strong> </p>
+  //     <p><strong>TENURE:</strong> </p>
+  //     <p><strong>REGISTERED OWNER:</strong> </p>
+  //     <p><strong>IMPROVEMENTS:</strong> </p>
+  //     <p><strong>SERVICES:</strong> </p>
+  //   `,
+  //   auctionDate: 'September 24, 2024',
+  //   guidePrice: 0,
+  //   auctionLocation: ``
+  // },
+
+  // {
+  //   id: 25,
+  //   title: ``,
+  //   location: 'Nairobi',
+  //   slug: '',
+  //   content: `
+  //     <p><strong>TITLE NO.</strong> </p>
+  //     <p><strong>SITUATION:</strong> </p>
+  //     <p><strong>AREA:</strong> </p>
+  //     <p><strong>TENURE:</strong> </p>
+  //     <p><strong>REGISTERED OWNER:</strong> </p>
+  //     <p><strong>IMPROVEMENTS:</strong> </p>
+  //     <p><strong>SERVICES:</strong> </p>
+  //   `,
+  //   auctionDate: 'September 24, 2024',
+  //   guidePrice: 0,
+  //   auctionLocation: ``
+  // },
 ]
