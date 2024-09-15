@@ -562,7 +562,7 @@ export const properties = [
   {
     id: 34,
     title: `33.8 ACRES OF PRIME VACANT LAND FOR SALE BY PUBLIC AUCTION SITUATED WITHIN SITUATED IN THE NEIGHBOURHOOD OF OLOKIRDING’AI, WITHIN EWAUSO KEDONG GROUP RANCH, IN KAJIADO COUNTY`,
-    location: 'Nairobi',
+    location: 'Kajiado',
     slug: '',
     content: `
       <p><strong>TITLE NO.</strong> KAJIADO/ EWUASO KEDONG/ 2744, KAJIADO COUNTY</p>
