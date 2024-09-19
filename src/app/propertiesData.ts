@@ -1,38 +1,5 @@
 export const properties = [
   {
-    id: 1,
-    title: `PRIME RESIDENTIAL PROPERTY (THREE (3 NO.) BEDROOM MASTER ENSUITE APARTMENT) FOR SALE BY PUBLIC AUCTION SITUATED WITHIN JAFFA COURT, WESTLANDS AREA -NAIROBI CITY COUNTY.`,
-    location: 'Nairobi',
-    slug: '',
-    content: `
-      <p><strong>TITLE NO.</strong> L.R. NO. 1870/111/417 (I.R. 82766), APARTMENT NO. 3, BLOCK A-JAFFA COURT, WESTLANDS - NAIROBI CITY COUNTY. </p>
-      <p><strong>SITUATION:</strong> The subject property, identifiable as Apartment No. 3 is a first-floor apartment situated in Block A within Jaffa Court, Westlands Area, Nairobi City County. It lies along Anfield Road, to the west of Fenesi Gardens Serviced Apartments, approximately 200 metres to the west of Sarit Centre, and about 4.3 kms northwest of Nairobi City, GPO.</p>
-      <p><strong>AREA:</strong> The entire parcel measures approximately (0.1178) of a hectare or (0.2911) of an acre.</p>
-      <p><strong>TENURE:</strong> The subject Apartment No. 3 is held vide a Leasehold Interest for the unexpired residue term of eighty-three (83) years and five (5) months with effect from 1st May,2002 (less the last seven (7) days thereof) at an annual ground rent of peppercorn (If demanded).</p>
-      <p><strong>IMPROVEMENTS:</strong> Jaffa Court is a residential development comprising of apartment units, a townhouse, common areas and utilities, spread out as follows: i) Block A: A triple storey block comprising six (6) No. three bedroom apartments. ii) Block B: A townhouse with an attached domestic staff quarter (DSQ); iii) Parking bays.</p>
-      <p><strong>APARTMENT No. 3:</strong> THIS IS A THREE (3 NO.) BEDROOM MASTER ENSUITE APARTMENT.</p>
-      <p><strong>SERVICES:</strong> All main services i.e. Mains electricity, water and trunk sewer services are connected to the property. The area is well served by cellular phone networks. The estate is also well secured with 24hr dual-shift security guards.  The driveways and parking lots are tar surfaced while the immediate access road (Anfield Road) is laid in cabro blocks joining the tar surfaced Karuna Lane approximately 200 metres away. Public transport is available along Ring Road Parklands the connects to Waiyaki Way which connects the neighbourhood to the City Centre. Other social economic facilities including, educational, recreational and shopping facilities are available from the immediate neighbourhood and from the Nairobi City CBD.</p>
-    `,
-    auctionDate: 'September 19, 2024',
-    guidePrice: 12500000,
-  },
-  {
-    id: 2,
-    title: `PRIME COMMERCIAL PROPERTY (FIVE – STOREY WITH A BASEMEENT FLOOR) FOR SALE BY PUBLIC AUCTION SITUATED WITHIN MARALAL TOWN CENTRE, MARALAL WARD, SAMBURU WEST CONSTITUENCY – SAMBURU COUNTY. `,
-    location: 'Samburu',
-    slug: '',
-    content: `
-      <p><strong>TITLE NO.</strong> MARALAL TOWN BLOCK 1/278 SUNGURA COMPLEX, MARALAL TOWN CENTRE, MARALAL WARD, SAMBURU WEST CONSTITUENCY – SAMBURU COUNTY.</p>
-      <p><strong>SITUATION:</strong> The property is situated along Maralal Town-Baragoi Road, in Maralal Town Centre, Maralal Ward, Samburu West Constituency, Samburu County. The subject property is commonly identified as SUNGURA COMPLEX. It is located in Maralal Town Centre opposite Rubis Fuel Station and about 300 metres to the north-east of Samburu County offices.</p>
-      <p><strong>AREA:</strong> The plot contains by measurements approximately 0.0899 Hectares i.e 0.222 ACRES).</p>
-      <p><strong>TENURE:</strong> The title is held on a Leasehold Interest for a term of 99 years with effect from 1st November 1998 at an annual ground rent of Kshs. 3,600/= (Rev). The lease on this property therefore has 74 years to expiry.</p>
-      <p><strong>IMPROVEMENTS:</strong> ERECTED ON THE PROPERTY IS A MULTI-STOREYED COMMERCIAL BUILDING WITH A BASEMENT FLOOR COMPRISING OF A HOTEL, CONFERENCING FACILITY AND RESTAURANT IDENTIFIABLE AS SUNGURA COMPLEX.</p>
-      <p><strong>SERVICES:</strong> Mains electricity and water are connected to the property. Water is also sourced from a private borehole in the neigbourhood. Foul drainage is to a bio digester. The property fronts the part tar surfaced Maralal Town-Baragoi Road.</p>
-    `,
-    auctionDate: 'September 20, 2024',
-    guidePrice: 132300000,
-  },
-  {
     id: 3,
     title: `PRIME RESIDENTIAL PROPERTY (FIVE (5 NO.) BEDROOM (2 ENSUITE) MAISONETTE WITH A DOMESTIC STAFF QUARTER) FOR SALE BY PUBLIC AUCTION SITUATED WITHIN EDENVILLE PHASE 2 ESTATE, OFF KIAMBU ROAD IN KIAMBU COUNTY`,
     location: 'Kiambu',
