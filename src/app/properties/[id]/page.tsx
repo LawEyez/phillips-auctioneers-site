@@ -41,21 +41,21 @@ export default async function Detail({ params, searchParams }: { params: { id: s
       <div className="flex flex-col gap-8">
         <div className="space-y-5">
           <h1 className="text-xl sm:text-2xl font-semibold font-secondary">
-            {property.title}
+            {property?.title}
           </h1>
 
           <div className="flex gap-6">
             <div className="flex flex-col gap-1">
               <p className="text-sm text-neutral-500">Guide Price (KES)</p>
-              <p className="text-sm md:text-base font-medium">{property.guidePrice.toLocaleString()}</p>
+              <p className="text-sm md:text-base font-medium">{property?.guidePrice.toLocaleString()}</p>
             </div>
 
             <div className="flex flex-col gap-1">
               <p className="text-sm text-neutral-500">Auction Date</p>
-              <p className="text-sm md:text-base font-medium">{property.auctionDate}</p>
+              <p className="text-sm md:text-base font-medium">{property?.auctionDate}</p>
             </div>
 
-            <div className="px-2 py-1 border border-black/10 rounded-full text-sm bg-neutral-50 h-max">{property.location}</div>
+            <div className="px-2 py-1 border border-black/10 rounded-full text-sm bg-neutral-50 h-max">{property?.location}</div>
           </div>
         </div>
 
@@ -63,7 +63,7 @@ export default async function Detail({ params, searchParams }: { params: { id: s
 
         <div
           className="space-y-5 text-gray-600 leading-relaxed text-sm md:text-base"
-          dangerouslySetInnerHTML={{ __html: property.content}}
+          dangerouslySetInnerHTML={{ __html: property?.content as string}}
         />
       </div>
     </section>
