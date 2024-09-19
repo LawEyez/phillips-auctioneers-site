@@ -1,8 +1,9 @@
 import Image from 'next/image'
-import { RiMailLine, RiPhoneLine } from 'react-icons/ri'
+import { RiFacebookLine, RiInstagramLine, RiMailLine, RiPhoneLine } from 'react-icons/ri'
 
 import Navlink from '@/components/layout/Navlink'
 import Brand from '@/components/global/Brand'
+import Link from 'next/link'
 
 const Header = () => {
   return (
@@ -33,6 +34,23 @@ const Header = () => {
             <Navlink name='Properties on sale' url='/#propertiesOnSale' />
             {/* <Navlink name='Use' url='/' />
             <Navlink name='Contact' url='/' /> */}
+            <div className="border border-black/10 rounded-xl py-2 px-3 flex gap-4 w-max">
+              <Link
+                href='https://www.facebook.com/Phillipsauctioneers/'
+                className='text-gray-600 hover:text-black transition'
+                target="_blank"
+              >
+                <RiFacebookLine />
+              </Link>
+              
+              <Link
+                href='https://www.instagram.com/phillipsauctioneers/'
+                className='text-gray-600 hover:text-black transition'
+                target="_blank"
+              >
+                <RiInstagramLine />
+              </Link>
+            </div>
           </div>
         </div>
       </nav>
