@@ -34,7 +34,7 @@ async function getProperty(id: string) {
 
 export default async function Detail({ params, searchParams }: { params: { id: string }, searchParams: { id: string }}) {
   const { id } = params
-  const property = properties[parseInt(id) - 1]
+  const property = properties.find(prop => prop.id === parseInt(id))
   
   return (
     <section className="py-16 container">
