@@ -60,7 +60,8 @@ export default async function Home() {
           <div className="overflow-x-auto pb-5 scrollbar">
             <div className="w-max flex gap-3">
               {properties
-                .sort((a: any, b: any) => b.date - a.date)
+                .filter(prop => new Date() < new Date(prop.auctionDate))
+                .sort((a: any, b: any) => b.auctionDate - a.auctionDate)
                 .slice(0, 5)
                 .map((property: any) => (
                   <Card
@@ -105,7 +106,9 @@ export default async function Home() {
         </h2>
 
         <div className="flex flex-col gap-3">
-          {properties.map((property: any, i: number) => (
+          {properties
+            .filter(prop => new Date() < new Date(prop.auctionDate))
+            .map((property: any, i: number) => (
             <Card
               key={property.id}
               id={property.id}
