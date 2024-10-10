@@ -62,7 +62,7 @@ export default async function Detail({ params, searchParams }: { params: { id: s
         <LineSeparator type="dark" />
 
         <div
-          className="prose"
+          className="prose-sm md:prose-base max-w-none"
           dangerouslySetInnerHTML={{ __html: property?.content as string}}
         />
       </div>
