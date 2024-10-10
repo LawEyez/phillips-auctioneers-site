@@ -37,7 +37,7 @@ export default async function Detail({ params, searchParams }: { params: { id: s
   const property = properties.find(prop => prop.id === parseInt(id))
   
   return (
-    <section className="py-16 container">
+    <section className="py-16 container min-h-[calc(100vh-462px)]">
       <div className="flex flex-col gap-8">
         <div className="space-y-5">
           <h1 className="text-xl sm:text-2xl font-semibold font-secondary">
