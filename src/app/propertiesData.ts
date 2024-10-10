@@ -1279,6 +1279,7 @@ FORECOURT, 2 NO. METALLIC CANOPY SHEDS, OFFICE BLOCK, STORE HOUSES, PIT LATRINE 
       <p><strong>TENURE:</strong> All the properties are Freehold Interests held on Absolute Proprietorship Basis.</p>
       <p><strong>IMPROVEMENTS:</strong> ALL PLOTS ARE VACANT.</p>
       <p><strong>SERVICES:</strong> Mains electricity is available for connection onto the subject properties from the immediate neighbourhood. Water could be obtained from local community water projects or boreholes sunk in the neighbourhood. Foul drainage would be into a septic tank. The immediate access roads are murram-surfaced connecting to the tarmac about 2.5 Kilometers away.</p>
+      <p><strong>PRICE:</strong> KSHS. 600,000.00 per plot</p>
     `,
     auctionDate: 'October 23, 2024',
     guidePrice: 600000,
