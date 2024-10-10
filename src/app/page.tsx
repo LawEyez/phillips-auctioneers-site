@@ -42,6 +42,8 @@ async function getProperties() {
 
 export default async function Home() {
   // const properties = await getProperties()
+  const today = new Date()
+  today.setHours(0, 0, 0, 0)
 
   return (
     <section className="">
@@ -60,7 +62,7 @@ export default async function Home() {
           <div className="overflow-x-auto pb-5 scrollbar">
             <div className="w-max flex gap-3">
               {properties
-                .filter(prop => new Date() < new Date(prop.auctionDate))
+                .filter(prop => new Date(prop.auctionDate) >= today)
                 .sort((a: any, b: any) => b.auctionDate - a.auctionDate)
                 .slice(0, 5)
                 .map((property: any) => (
